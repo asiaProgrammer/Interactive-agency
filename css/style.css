@@ -1,0 +1,168 @@
+.background {
+    background: url('img/layer-1.png') center;
+    min-height: 1080px;
+}
+
+body {
+    font: 300 18px / 1.6em Montserrat, Arial, sans-serif;
+    color: #0000;
+}
+
+/*links*/
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*images*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brand {
+    font: 700 32px / 24px Montserrat, Arial, sans-serif;
+    float: left;
+}
+
+.brand-agency {
+    font-weight: 300;
+}
+
+.page-header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: block;
+    margin-right: 230px;
+}
+
+/*menu*/
+.menu-items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-items li {
+    margin: 0 4px;
+    display: inline-block;
+}
+
+.menu-items li a {
+    padding: 12px 20px 14px 20px;
+    font: 400 18px / 1.33em Montserrat, Arial, sans-serif;
+    display: inline-block;
+}
+
+.menu-items .active {
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.section-header h1 {
+    font: 700 48px / 36px Montserrat, Arial, sans-serif;
+    color: #000;
+}
+
+.section-header {
+    margin-top: 220px;
+    text-align: center;
+}
+
+.section-header p {
+    color: #949494;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    background: #ffffff linear-gradient(74deg, #49007c 0%, #e70088 100%);
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.intro-cta {
+    text-align: left;
+    margin-top: 31px;
+}
+
+
+#btn-center {
+    text-align: center;
+}
+
+.down-section {
+    text-align: center;
+    margin-top: 419px;
+}
+
+.down-section p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.best {
+    color: #fff;
+    min-height: 514px;
+}
+
+.best p {
+    margin-top: 21px;
+    text-align: justify;
+}
+
+.best-desing {
+    background: url("img/bestdesign.png");
+    min-height: 514px;
+    padding-left: 10%;
+    padding-top: 150px;
+    padding-right: 8%;
+}
+
+.best-code {
+    background: url("img/bestcode.png");
+    min-height: 514px;
+    padding-left: 10%;
+    padding-top: 150px;
+    padding-right: 8%;
+}
+
+.best-h3 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.design {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.no-padding{
+    padding: 0
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
